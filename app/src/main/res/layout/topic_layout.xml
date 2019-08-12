@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Topic Name" />
+
+    <EditText
+        android:id="@+id/lessonfocus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lesson Focus" />
+
+    <EditText
+        android:id="@+id/lessonSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lesson Summary" />
+
+    <EditText
+        android:id="@+id/lessonR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Learning Resources" />
+</LinearLayout>
+
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/login_bg"
+    tools:context="com.selfmade.gradiamut.myplan.LoginActivity">
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="141dp"-->
+        <!--android:src="@drawable/logo_" />-->
+
+    <EditText
+        android:id="@+id/emailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/colorBlack"
+        android:ems="15"
+        android:textColor="@color/colorAccent"
+        android:labelFor="@+id/textView2"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailField"
+        android:layout_alignRight="@+id/emailField"
+        android:layout_below="@+id/emailField"
+        android:layout_marginTop="45dp"
+        android:ems="15"
+        android:backgroundTint="@color/colorBlack"
+        android:textColor="@color/colorAccent"
+        android:inputType="textPassword"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailField"
+        android:layout_alignStart="@+id/emailField"
+        android:layout_marginStart="12dp"
+        android:text="@string/e_mail"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/emailField"
+        android:layout_marginTop="17dp"
+        android:text="@string/password"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/passwordField"
+        android:layout_alignLeft="@+id/passwordField"
+        android:layout_alignRight="@+id/passwordField"
+        android:layout_alignStart="@+id/passwordField"
+        android:layout_below="@+id/passwordField"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/sign_in"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/forgot_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_bg"
+        android:text="@string/forgot_password"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/forgot_pass"
+        android:layout_alignBottom="@+id/forgot_pass"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_bg"
+        android:text="@string/need_a_new_account"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/rollCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll Call" />
+
+    <EditText
+        android:id="@+id/recap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lesson Recap" />
+
+    <EditText
+        android:id="@+id/lTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lesson Topic" />
+
+    <EditText
+        android:id="@+id/activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity" />
+</LinearLayout>
+
